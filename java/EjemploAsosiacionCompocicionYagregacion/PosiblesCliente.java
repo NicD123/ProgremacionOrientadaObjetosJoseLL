@@ -7,9 +7,9 @@ public class PosiblesCliente{
 		listadoCliente = new Cliente[n];
 	}
 
-	public void agragarCliente(int lugar, Choche co, Clienre cl){
-		Coche[ lugar ] = co;
-		Cliente[ lugar ] = cl;
+	public void agregarCliente(int lugar, Coche co, Cliente cl){
+		listadoCoches[lugar] = co;
+		listadoCliente[lugar] = cl;
 
 	}
 	public void despliegaPosibleCliente(int lugar){
