@@ -13,7 +13,7 @@ public class NumeroElementosMayor {
 		mayores = 0;
 		
 		for(int i = 0; i < numeroDeVariables; i++){
-			System.out.println("\tDigite un numero:  " + numeroDeVariables);
+			System.out.println( "\tte falta por diguitar:  " + (numeroDeVariables - i) + "\n\n\tDigite un numero:  ");
 			numeros[i] = sc.nextInt();
 		}
 
