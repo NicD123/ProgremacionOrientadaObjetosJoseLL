@@ -24,18 +24,21 @@ int main()
         if ((i + 2) < numClientes)
         {
             reporte.agregarCliente(i, Coche("Matys", l1, l2, l3, l4), Cliente("Juan"));
-            reporte.agregarCliente(i++, Coche("Polo"), Cliente("Juan"));
-            reporte.agregarCliente(i++, Coche("Matys"), Cliente("Juan", 46));
+            i++;
+            reporte.agregarCliente(i, Coche("Polo"), Cliente("Juan"));
+            i++;
+            reporte.agregarCliente(i, Coche("Matys"), Cliente("Juan", 46));
         }
         else {
             if ((i+ 1) < numClientes)
             {
-                reporte.agregarCliente(i, Coche("Polo"), Cliente("Juan"));
-                reporte.agregarCliente(i++, Coche("Matys"), Cliente("Juan", 46));
+                reporte.agregarCliente(i, Coche("Polo"), Cliente("galiano"));
+                i++;
+                reporte.agregarCliente(i, Coche("Matys"), Cliente("galiano", 46));
             }
             else
             {
-                reporte.agregarCliente(i, Coche("Matys", l1, l2, l3, l4), Cliente("Juan"));
+                reporte.agregarCliente(i, Coche("Matys", l1, l2, l3, l4), Cliente("Fernandes"));
             }
         }
     }
