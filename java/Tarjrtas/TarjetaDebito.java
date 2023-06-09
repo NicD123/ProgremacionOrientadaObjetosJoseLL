@@ -1,6 +1,6 @@
 public class TarjetaDebito {
 	private String cuenta;
-	protected double saldo;
+	private double saldo;
 	public TarjetaDebito (String cunenta, double saldo){
 		this.cuenta = cuenta;
 		this.saldo = saldo;
