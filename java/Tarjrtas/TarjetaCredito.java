@@ -16,8 +16,8 @@ public class TarjetaCredito extends TarjetaDebito {
 		lineaDeCredito = monto;
 	}
 	public boolean sacarDinero (double monto){
-		if (monto <= saldo + lineaDeCredito) {
-			saldo -= monto;
+		if (monto <= getSaldo() + lineaDeCredito) {
+			meterDinero(-monto);
 			return true;
 		}else{
 			return false;
@@ -25,7 +25,7 @@ public class TarjetaCredito extends TarjetaDebito {
 	}
 	public void cargarInteresMensual(){
 		if( getSaldo() < 0 ){
-			saldo += getSaldo() * tasaInteres;
+			meterDinero( getSaldo() * tasaInteres);
 		}
 	}
 	
