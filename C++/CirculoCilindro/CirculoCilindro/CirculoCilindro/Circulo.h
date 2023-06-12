@@ -5,10 +5,13 @@ protected:
 	double diametro;
 	const float pi = 3.1416;
 public:
+	Circulo() {
+		this->diametro = 0;
+	};
 	Circulo(int diametro) {
 		this->diametro = diametro;
 	};
-	double area() {
+	double areaB() {
 		return pi * (diametro / 2) * (diametro / 2);
 	};
 	double perimetro() {
