@@ -48,7 +48,10 @@ int main()
         cin >> altura;
     } while (altura > 0);
 
+    do
+    {
 
+    } while (altura>0 && diametro>0);
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
