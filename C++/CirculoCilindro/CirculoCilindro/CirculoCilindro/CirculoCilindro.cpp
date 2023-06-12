@@ -14,7 +14,7 @@ int main()
     double altura;
     double diametro;
 
-    cout << "\n\t\tEste programa le dira el Area y Perimetro de un circulo basado en su diametro \n";
+    cout << "\n\t\tEste programa le dira el Area y Perimetro de un circulo basado en su diametro \n este es un mensaje sospechoso\n";
     cout << "\t\tLuego le dara el perimero de la base de un cilindro, las areas y los volumenes \n";
     cout << "\t-------\t Ingrece el diametro(para finalisar digite 0): \n";
     cin >> diametro;
