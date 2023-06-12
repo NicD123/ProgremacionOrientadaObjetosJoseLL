@@ -5,6 +5,10 @@ class Cilindro:public Circulo
 protected:
 	double altura;
 public:
+	Cilindro() {
+		this->diametro = 0;
+		this->altura = 0;
+	}
 	Cilindro(double diametro, double altura) {
 		this->diametro = diametro;
 		this->altura = altura;
