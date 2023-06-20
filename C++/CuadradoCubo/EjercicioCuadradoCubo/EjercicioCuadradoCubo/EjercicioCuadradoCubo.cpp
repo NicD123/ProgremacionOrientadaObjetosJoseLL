@@ -3,10 +3,14 @@
 
 #include <iostream>
 #include "Cuadrado.h"
+#include "Cubo.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Cuadrado cuadrando;
+	cuadrando.setLado(3);
+	cout << "Ejenmplo de uso:\n \t Supenemos un cubo de lado 3 cm\n\n\t su area es de: "<< cuadrando.area() <<"\n\n\t su perimetro es: "<< cuadrando.perimetro();
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
