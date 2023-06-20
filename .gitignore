@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# ejecutables java
+
+*.class
+*/C++/CirculoCilindro/CirculoCilindro/.vs/
