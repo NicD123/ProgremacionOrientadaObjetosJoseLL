@@ -1,8 +1,8 @@
-public class Cubo extend Cuadrado {
+public class Cubo extends Cuadrado {
 	public Cubo() {
-		Super();
+		super();
 	};
-	public double Volumen()  {
+	public double volumen()  {
 		return area() * getLado();
 	}
 	
