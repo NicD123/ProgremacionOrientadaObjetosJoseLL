@@ -1,7 +1,7 @@
 public class Rectangulo implements Poligono {
 
 	private double lado1, lado2;
-	public Regtangulo(double dato1, double dato2) {
+	public Rectangulo(double dato1, double dato2) {
 		lado1 = dato1;
 		lado2 = dato2;
 	}
