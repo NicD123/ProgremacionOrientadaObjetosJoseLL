@@ -10,7 +10,7 @@ public class Curso2006 extends Curso {
 			promedio = (int) (sumaParcial / 3.0);
 		else
 			promedio = (int) (sumaParcial / 3.0 + 0.5);
-		if(promedio > 8){
+		if(promedio > 7){
 			if (global > promedio)
 				return global;
 			else
