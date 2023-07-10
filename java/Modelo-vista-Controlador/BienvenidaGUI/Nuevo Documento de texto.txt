@@ -1,0 +1,19 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class BienvenidaSw{
+	public static void main(String[] args){
+
+		JFrame frame = new JFrame("Bienvenida");
+		final JLabel label = JLabel("\n\tBienvenidos al munfo de la programacion orientada a objetos");
+
+		frame.getCpntentPlane().add(label);
+		frame.addWindowListener( new java.awt.event.WindowAdater(){
+			public void windowClosing( WindowEvent e){
+				
+			}
+		});
+
+	}
+}
