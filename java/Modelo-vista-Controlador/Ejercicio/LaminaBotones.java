@@ -9,7 +9,7 @@ import javax.swing.*;
  */
 public class LaminaBotones extends JPanel{
     public LaminaBotones(){
-        JButton botonAmarillo = new JButton("Amarillo");
+        JButton botonAmarillo = new JButton("Triangulo");
         JButton botonAzul = new JButton("Azul");
         JButton botonRojo = new JButton("Rojo");
         
