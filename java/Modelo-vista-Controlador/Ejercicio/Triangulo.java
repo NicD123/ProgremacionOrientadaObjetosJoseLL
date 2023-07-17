@@ -15,7 +15,8 @@ public class Triangulo implements Poligono {
 		lado1 = dato1;
 		lado2 = dato2;
 	}
-
+        
+        public Triangulo(){}
 
 
 	public void cambiarDatos(int dtipo, double dato1, double dato2, double dato3) {

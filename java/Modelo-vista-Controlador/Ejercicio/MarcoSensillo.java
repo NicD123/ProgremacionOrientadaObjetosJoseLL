@@ -18,6 +18,6 @@ public class MarcoSensillo extends JFrame {
         setSize( anchuraPantalla, alturaPantalla);
         setTitle(a);
         add(lamina);
-        add(label);
+        //add(label);
     }
 }
