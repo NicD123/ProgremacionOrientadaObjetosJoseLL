@@ -11,4 +11,8 @@ public class GUITriangulo {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
+    /// nombre base de datos CursoJava
+    ////  Usuario NameCursoJava
+    ///// BD contraseña 123456@Ss
+    
 }

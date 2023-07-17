@@ -48,11 +48,10 @@ public class LaminaBotones extends JPanel{
             String L3;
             String LA;
             setBackground(colorDeFondo);
-            
+            L1 = JOptionPane.showInputDialog("¿Tamaño del lado 1?");
             switch(tipo){
                 case 1:
                     
-                    L1 = JOptionPane.showInputDialog("¿Tamaño del lado 1?");
                     LA = JOptionPane.showInputDialog("¿Altura?");
 
                     lado1 = Integer.parseInt (L1);
@@ -64,7 +63,6 @@ public class LaminaBotones extends JPanel{
                     break;
                 case 2:
                     
-                    L1 = JOptionPane.showInputDialog("¿Tamaño del lado 1?");
                     L2 = JOptionPane.showInputDialog("¿Tamaño del lado 2?");
                     L3 = JOptionPane.showInputDialog("¿Tamaño del lado 3?");
                     
@@ -80,7 +78,7 @@ public class LaminaBotones extends JPanel{
                     
                 case 3:
                     
-                    L1 = JOptionPane.showInputDialog("¿Tamaño del lado 1 y 2?");
+                    L1 = JOptionPane.showInputDialog("¿Tamaño del lado 2?");
                     L3 = JOptionPane.showInputDialog("¿Tamaño del lado 3?");
 
                     lado1 = Integer.parseInt (L1);
