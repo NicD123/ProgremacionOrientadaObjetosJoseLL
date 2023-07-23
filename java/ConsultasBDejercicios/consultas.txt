@@ -1,0 +1,6 @@
+
+// listado de interesados en orden alfabetico
+	SELECT nombre_de_pila FROM interesados ORDER BY nombre_de_pila ASC; 
+
+//listado de conferensias mas fecha y describbion
+	SELECT conferencias.dia, conferencias.mes, conferencias.año, descripcion AS tema FROM conferencias, cursos WHERE cursos.clave = cve_curso;
