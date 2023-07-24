@@ -24,8 +24,8 @@ int main()
     cuenta_1.retirar(500);
     cuenta_2.retirar(100);
 
-    cout << "cuenta de" << cuenta_1.getTitular() << "tiene disponible" << cuenta_1.getcantidad();
-    cout << "cuenta de" << cuenta_2.getTitular() << "tiene disponible" << cuenta_2.getcantidad();
+    cout << "\n\n\tcuenta de " << cuenta_1.getTitular() << " tiene disponible "  << cuenta_1.getcantidad();
+    cout << "\n\tcuenta de " << cuenta_2.getTitular() << " tiene disponible " << cuenta_2.getcantidad();
 
 }
 

@@ -1,2 +1,2 @@
 ﻿  Cyuenta.cpp
-E:\Saul\Desktop\ejercicioDeProgramacion\ProgremacionOrientadaObjetosJoseLL\C++\Bateria de ejercicios\Cyuenta\Cyuenta\cuenta.h(55,55): error C2676: '+' binario: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' no define este operador o una conversión a un tipo aceptable para el operador predefinido
+  Cyuenta.vcxproj -> E:\Saul\Desktop\ejercicioDeProgramacion\ProgremacionOrientadaObjetosJoseLL\C++\Bateria de ejercicios\Cyuenta\Debug\Cyuenta.exe
