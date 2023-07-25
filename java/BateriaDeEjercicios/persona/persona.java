@@ -28,8 +28,8 @@ public class persona {
     private int age;
     private String DNI;
     private  char sexso;
-    private int peso;
-    private int altura;
+    private double peso;
+    private double altura;
     
     //constructores
     public persona(){
@@ -48,14 +48,30 @@ public class persona {
         peso = DEFAUL_PESO;
         altura = DEFAUL_ALTURA;
     };
-    public persona(String nombre, int edad, char sexso, int peso, int altura){
+    public persona(int edad, char sexso){
+        name = DEFAUL_NAME;
+        age = edad;
+        generarDNI();
+        comprovarSexso(sexso);
+        peso = DEFAUL_PESO;
+        altura = DEFAUL_ALTURA;
+    };
+    public persona(String nombre, int edad, char sexso, double peso, double altura){
         name = nombre;
         age = edad;
         generarDNI();
         comprovarSexso(sexso);
         this.peso = peso;
         this.altura = altura;
-    };    
+    };  
+    public persona(int edad, char sexso, double peso, double altura){
+        name = DEFAUL_NAME;
+        age = edad;
+        generarDNI();
+        comprovarSexso(sexso);
+        this.peso = peso;
+        this.altura = altura;
+    }; 
     
 
     //metodos
@@ -99,8 +115,8 @@ public class persona {
     public void setName(String a){name = a;};
     public void setAge(int a){age = a;};
     public void setSexso(char a){comprovarSexso(a);};
-    public void setPeso(int a){this.peso = a;};
-    public void setaltura(int a){this.altura = a;};
+    public void setPeso(double a){this.peso = a;};
+    public void setaltura(double a){this.altura = a;};
     
 
     
