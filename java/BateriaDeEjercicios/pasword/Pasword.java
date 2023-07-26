@@ -1,3 +1,6 @@
+
+import javax.swing.JOptionPane;
+
 public class Pasword {
     private final int LONGITUD_DAFAULD = 8;
     
@@ -26,22 +29,23 @@ public class Pasword {
     private void generarPasword(){
         pasword = "";
         for(int i = 0; i < longitud; i++){
-            int tipo = (int) (Math.random()*(3-1));
+            int tipo = (int) (Math.random()*(3-0)+1);
             switch(tipo) {
                 case 1:
                   // minusculo
-                    char minuscula = (char) (Math.random()*(122-97)+97);
+                    char minuscula = (char) (Math.random()*(122+1-97)+97);
                     pasword += minuscula;
-                  break;
+                    break;
                 case 2:
-                    char numero = (char) (Math.random()*(57-48)+48);
+                    char numero = (char) ((int)(Math.random()*(57+1-48)+48));
                     pasword += numero;
+                    break;
                   // numero
                 case 3:
-                    char mayuscula = (char) (Math.random()*(90-65)+65);
+                    char mayuscula = (char) (Math.random()*(90+1-65)+65);
                     pasword += mayuscula;
                   // mayuscula
-                  break;
+                    break;
                 default:
                   // code block
               }
