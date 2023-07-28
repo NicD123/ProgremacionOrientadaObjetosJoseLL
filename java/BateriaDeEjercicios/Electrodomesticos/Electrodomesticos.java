@@ -81,7 +81,7 @@ public class Electrodomesticos {
     
 
 //Calcular peresio}
-    public int calcularPrecioFinal(){
+    public double calcularPrecioFinal(){
         int presio;
         presio = precioBase;        
         for(int i=0; i < _TIPOS_CONSUMOS_ENERGETICO.length-1 ;i++ ){
