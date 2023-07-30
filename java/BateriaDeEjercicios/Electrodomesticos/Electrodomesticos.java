@@ -75,7 +75,7 @@ public class Electrodomesticos {
     public char getCosnsumoEnergia(){
         return cosnsumoEnergia;
     };
-    public String getcolor(){
+    public String getColor(){
         return color;
     };
     
@@ -89,7 +89,7 @@ public class Electrodomesticos {
                 presio += _PRESIO_CONSUMOS_ENERGETICO[i];
             }
         }
-        for(int i=0; i < _LIMITES_DE_PESO.length ;i++ ){
+        for(int i=0; i < _LIMITES_DE_PESO.length - 1 ;i++ ){
             if(_LIMITES_DE_PESO[i] <= peso && peso <_LIMITES_DE_PESO[i+1]){
                 presio += _PRESIO_POR_RANGO_DE_PESO[i];
             }else{
@@ -99,7 +99,7 @@ public class Electrodomesticos {
             }
         }
         
-        return 1;
+        return presio;
     }
     
 }

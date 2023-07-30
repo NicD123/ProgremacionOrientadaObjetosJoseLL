@@ -24,10 +24,10 @@ public class Labadora extends Electrodomesticos{
         return carga;
     }
     public double precioFinal(){
-    double plus = super.calcularPrecioFinal();
-    int aumento =  carga % 30;
-    plus = plus + 50 * aumento;
-    return plus;
+        double plus = super.calcularPrecioFinal();
+        int aumento =  carga % 30;
+        plus = plus + 50 * aumento;
+        return plus;
     }
     
 }
